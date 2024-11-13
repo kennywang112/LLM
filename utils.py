@@ -17,7 +17,7 @@ class DialogueAnalyzer:
             raise FileNotFoundError(f"找不到模型文件: {model_path}")
 
         self.model_settings = {
-            "n_ctx": 4096,           # Mistral 支援更長的上下文
+            "n_ctx": 8192,           # Mistral 支援更長的上下文
             "n_batch": 512,
             "n_threads": 8,
             "low_vram": True,
@@ -38,6 +38,7 @@ class DialogueAnalyzer:
         1. Look for speaker indicators like "said", "asked", "replied", etc.
         2. Look for character names or roles before or after the dialogue
         3. Consider the context to identify who is speaking
+        4. If the content is not identified as spoken dialogue by any character, label it as "Narrator"
 
         Text:
         {text}
@@ -61,7 +62,7 @@ class DialogueAnalyzer:
         try:
             response = self.llm(
                 prompt,
-                max_tokens=2048,
+                max_tokens=8192,
                 temperature=0.1,
                 stop=["</s>", "[/INST]"],
                 echo=False
@@ -177,18 +178,14 @@ def save_results(results: List[Dict], filename: str = "analysis_results.json"):
     except Exception as e:
         print(f"儲存結果時發生錯誤: {str(e)}")
         
-def main():
-    MODEL_PATH = r"./mistral-7b-instruct-v0.1.Q4_0.gguf"  # Mistral 模型路徑
+def llm(content):
+    MODEL_PATH = r"./Model/mistral-7b-instruct-v0.1.Q4_0.gguf"  # Mistral 模型路徑
     
     try:
         analyzer = DialogueAnalyzer(MODEL_PATH)
         
-        test_text = """
-        "How could I go?" said Trembling. "I have no clothes good enough to
-        wear at church; and if my sisters were to see me there, they'd kill me
-        for going out of the house."
-        
-        "I'll give you clothes," said the henwife.
+        test_text = f"""
+        {content}
         """
         
         print("開始分析文本...")
