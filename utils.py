@@ -3,6 +3,7 @@ import gc
 import re
 import json
 import torch
+import traceback
 from llama_cpp import Llama
 from typing import List, Dict
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -17,12 +18,12 @@ class DialogueAnalyzer:
             raise FileNotFoundError(f"找不到模型文件: {model_path}")
 
         self.model_settings = {
-            "n_ctx": 8192,           # Mistral 支援更長的上下文
-            "n_batch": 512,
-            "n_threads": 8,
+            "n_ctx": 32000,           # Mistral 支援更長的上下文
+            "n_batch": 64,
+            "n_threads": 4,
             "low_vram": True,
             "seed": 42,
-            "n_gpu_layers": 0
+            "n_gpu_layers": 5
         }
 
         try:
@@ -30,6 +31,7 @@ class DialogueAnalyzer:
             print("模型載入成功！")
         except Exception as e:
             raise Exception(f"模型載入失敗: {str(e)}")
+            traceback.print_exc()
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
     def analyze_dialogue(self, text: str) -> List[Dict]:
