@@ -1,21 +1,12 @@
-NER模型:
+## Model
+LLM for fairy tales extraction: mistral-7b-instruct-v0.1.Q4_0. [doc](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) <br/>
+Named Entity Recognition (NER) model for identify character: gliner_mediumv2.1. [doc](https://huggingface.co/urchade/gliner_medium-v2.1)<br/>
+Text to speech: xtts_v2. [doc](https://huggingface.co/coqui/XTTS-v2) & [paper](https://arxiv.org/pdf/2406.04904)<br/>
+Emotion classifier: DistilRoBERTa-base. [doc](https://huggingface.co/michellejieli/emotion_text_classifier)<br/>
+Music generate: MusicGen. [doc](https://huggingface.co/facebook/musicgen-small) & [paper](https://arxiv.org/abs/2306.05284)
+Image generate: Text-to-Image. [doc](https://huggingface.co/ZB-Tech/Text-to-Image)
 
-https://huggingface.co/ckiplab/bert-base-chinese-ner
-
-https://github.com/ckiplab/ckip-transformers?tab=readme-ov-file
-
-可以直接用以訓練好的模型微調
-
-(備用)https://github.com/rsanshierli/EasyBert
-
-多類別情緒分析:
-
-https://www.cc.ntu.edu.tw/chinese/epaper/home/News_Content_n_103855_s_215411.html
-
-https://github.com/telunyang/python_multiclass_classification
-
-語音產生:
-
-https://github.com/netease-youdao/EmotiVoice/tree/main
-
-https://github.com/suno-ai/bark?tab=readme-ov-file#-usage-in-python
+## Folder
+Model for LLM: Put [mistral-7b-instruct](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) model in the **Model** folder<br/>
+Story: Install fairy tales from [here](https://drive.google.com/drive/u/0/folders/1GVB8rZhbVewnPd2CNA5tshupF01z0DtD) and put it in **fairy_tales** folder<br/>
+Voice: [These](https://drive.google.com/drive/u/0/folders/1GVB8rZhbVewnPd2CNA5tshupF01z0DtD) are example voice for the text to speech
