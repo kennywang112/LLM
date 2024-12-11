@@ -1,0 +1,853 @@
+{
+  "summary": {
+    "total_quotes": 63,
+    "quotes_with_known_speakers": 56,
+    "quotes_requiring_ml": 20,
+    "unique_speakers": [
+      "Cúchulainn",
+      "Fair",
+      "Fionn",
+      "Henwife",
+      "I am a king, and I have a daughter, and I",
+      "I'll give you three guesses, said the king",
+      "King",
+      "Son",
+      "The Brothers",
+      "The Cowboy",
+      "The Henwife",
+      "The Mother",
+      "The Old",
+      "The Prince",
+      "The Queen",
+      "The Servant",
+      "Trembling",
+      "You shall be my servant for twelve",
+      "the",
+      "the boy",
+      "the henwife",
+      "the husband",
+      "the prince"
+    ]
+  },
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "It's at church\nyou ought to be this day, instead of working here at home.",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Context-based attribution (manual adjustment)",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "FAIR, BROWN, AND TREMBLING\n\nKing Hugh Curucha lived in Tir Conal, and he had three daughters, whose\nnames were Fair, Brown, and Trembling. Fair and Brown had new dresses,\nand went to church every Sunday. Trembling was kept at home to do the\ncooking and work. They would not let her go out of the house at all;\nfor she was more beautiful than the other two, and they were in dread\nshe might marry before themselves.\n\nThey carried on in this way for seven years. At the end of seven years\nthe son of the king of Emania fell in love with the eldest sister.",
+        "after": ""
+      }
+    },
+    {
+      "id": 2,
+      "quote": "How could I go?",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said Trembling."
+      }
+    },
+    {
+      "id": 3,
+      "quote": "I have no clothes good enough to\nwear at church; and if my sisters were to see me there, they'd kill me\nfor going out of the house.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Same speaker sequence",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 4,
+      "quote": "I'll give you,",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said the henwife,"
+      }
+    },
+    {
+      "id": 5,
+      "quote": "a finer dress than either of them\nhas ever seen. And now tell me what dress will you have?",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 6,
+      "quote": "I'll have,",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said Trembling,"
+      }
+    },
+    {
+      "id": 7,
+      "quote": "a dress as white as snow, and green shoes\nfor my feet.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Then the henwife put on the cloak of darkness, clipped a piece from the\nold clothes the young woman had on, and asked for the whitest robes in\nthe world and the most beautiful that could be found, and a pair of\ngreen shoes.\n\nThat moment she had the robe and the shoes, and she brought them to\nTrembling, who put them on. When Trembling was dressed and ready, the\nhenwife said:"
+      }
+    },
+    {
+      "id": 8,
+      "quote": "I have a honey-bird here to sit on your right shoulder,\nand a honey-finger to put on your left. At the door stands a milk-white\nmare, with a golden saddle for you to sit on, and a golden bridle to\nhold in your hand.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Trembling sat on the golden saddle; and when she was ready to start,\nthe henwife said:"
+      }
+    },
+    {
+      "id": 9,
+      "quote": "You must not go inside the door of the church, and\nthe minute the people rise up at the end of Mass, do you make off, and\nride home as fast as the mare will carry you.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "When Trembling came to the door of the church there was no one inside\nwho could get a glimpse of her but was striving to know who she was;\nand when they saw her hurrying away at the end of Mass, they ran out to\novertake her. But no use in their running; she was away before any man\ncould come near her. From the minute she left the church till she got\nhome, she overtook the wind before her, and outstripped the wind behind.\n\nShe came down at the door, went in, and found the henwife had dinner\nready. She put off the white robes, and had on her old dress in a\ntwinkling.\n\nWhen the two sisters came home the henwife asked:"
+      }
+    },
+    {
+      "id": 10,
+      "quote": "Have you any news\nto-day from the church?",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 11,
+      "quote": "We have great news,",
+      "speaker": {
+        "name": "The Brothers",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "said they."
+      }
+    },
+    {
+      "id": 12,
+      "quote": "We saw a wonderful grand lady at the\nchurch-door. The like of the robes she had we have never seen on woman\nbefore. It's little that was thought of our dresses beside what she had\non; and there wasn't a man at the church, from the king to the beggar,\nbut was trying to look at her and know who she was.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "The sisters would give no peace till they had two dresses like the\nrobes of the strange lady; but honey-birds and honey-fingers were not\nto be found.\n\nNext Sunday the two sisters went to church again, and left the youngest\nat home to cook the dinner.\n\nAfter they had gone, the henwife came in and asked:"
+      }
+    },
+    {
+      "id": 13,
+      "quote": "Will you go to\nchurch to-day?",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 14,
+      "quote": "I would go,",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said Trembling,"
+      }
+    },
+    {
+      "id": 15,
+      "quote": "if I could get the going.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 16,
+      "quote": "What robe will you wear?",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "asked the henwife."
+      }
+    },
+    {
+      "id": 17,
+      "quote": "The finest black satin that can be found, and red shoes for my feet.",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 18,
+      "quote": "What colour do you want the mare to be?",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 19,
+      "quote": "I want her to be so black and so glossy that I can see myself in her\nbody.",
+      "speaker": {
+        "name": "The Henwife",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "The henwife put on the cloak of darkness, and asked for the robes and\nthe mare. That moment she had them. When Trembling was dressed, the\nhenwife put the honey-bird on her right shoulder and the honey-finger\non her left. The saddle on the mare was silver, and so was the bridle.\n\nWhen Trembling sat in the saddle and was going away, the henwife\nordered her strictly not to go inside the door of the church, but to\nrush away as soon as the people rose at the end of Mass, and hurry home\non the mare before any man could stop her.\n\nThat Sunday, the people were more astonished than ever, and gazed at\nher more than the first time; and all they were thinking of was to know\nwho she was. But they had no chance; for the moment the people rose at\nthe end of Mass she slipped from the church, was in the silver saddle,\nand home before a man could stop her or talk to her.\n\nThe henwife had the dinner ready. Trembling took off her satin robe,\nand had on her old clothes before her sisters got home."
+      }
+    },
+    {
+      "id": 20,
+      "quote": "What news have you to-day?",
+      "speaker": {
+        "name": "Henwife",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "asked the henwife of the sisters when they\ncame from the church."
+      }
+    },
+    {
+      "id": 21,
+      "quote": "Oh, we saw the grand strange lady again! And it's little that any man\ncould think of our dresses after looking at the robes of satin that she\nhad on! And all at church, from high to low, had their mouths open,\ngazing at her, and no man was looking at us.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "The two sisters gave neither rest nor peace till they got dresses as\nnearly like the strange lady's robes as they could find. Of course they\nwere not so good; for the like of those robes could not be found in\nErin.\n\nWhen the third Sunday came, Fair and Brown went to church dressed in\nblack satin. They left Trembling at home to work in the kitchen, and\ntold her to be sure and have dinner ready when they came back.\n\nAfter they had gone and were out of sight, the henwife came to the\nkitchen and said:"
+      }
+    },
+    {
+      "id": 22,
+      "quote": "Well, my dear, are you for church to-day?",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 23,
+      "quote": "I would go if I had a new dress to wear.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 24,
+      "quote": "I'll get you any dress you ask for. What dress would you like?",
+      "speaker": {
+        "name": "the henwife",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "asked\nthe henwife."
+      }
+    },
+    {
+      "id": 25,
+      "quote": "A dress red as a rose from the waist down, and white as snow from the\nwaist up; a cape of green on my shoulders; and a hat on my head with a\nred, a white, and a green feather in it; and shoes for my feet with the\ntoes red, the middle white, and the backs and heels green.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "The henwife put on the cloak of darkness, wished for all these things,\nand had them. When Trembling was dressed, the henwife put the\nhoney-bird on her right shoulder and the honey-finger on her left, and,\nplacing the hat on her head, clipped a few hairs from one lock and a\nfew from another with her scissors, and that moment the most beautiful\ngolden hair was flowing down over the girl's shoulders. Then the\nhenwife asked what kind of a mare she would ride. She said white, with\nblue and gold-coloured diamond-shaped spots all over her body, on her\nback a saddle of gold, and on her head a golden bridle.\n\nThe mare stood there before the door, and a bird sitting between her\nears, which began to sing as soon as Trembling was in the saddle, and\nnever stopped till she came home from the church.\n\nThe fame of the beautiful strange lady had gone out through the world,\nand all the princes and great men that were in it came to church that\nSunday, each one hoping that it was himself would have her home with\nhim after Mass.\n\nThe son of the king of Emania forgot all about the eldest sister, and\nremained outside the church, so as to catch the strange lady before she\ncould hurry away.\n\nThe church was more crowded than ever before, and there were three\ntimes as many outside. There was such a throng before the church that\nTrembling could only come inside the gate.\n\nAs soon as the people were rising at the end of Mass, the lady slipped\nout through the gate, was in the golden saddle in an instant, and\nsweeping away ahead of the wind. But if she was, the prince of Emania\nwas at her side, and, seizing her by the foot, he ran with the mare for\nthirty perches, and never let go of the beautiful lady till the shoe\nwas pulled from her foot, and he was left behind with it in his hand.\nShe came home as fast as the mare could carry her, and was thinking all\nthe time that the henwife would kill her for losing the shoe.\n\nSeeing her so vexed and so changed in the face, the old woman asked:"
+      }
+    },
+    {
+      "id": 26,
+      "quote": "What's the trouble that's on you now?",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 27,
+      "quote": "Oh! I've lost one of the shoes\noff my feet,",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said Trembling."
+      }
+    },
+    {
+      "id": 28,
+      "quote": "Don't mind that; don't be vexed,",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Same speaker sequence",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said the henwife;"
+      }
+    },
+    {
+      "id": 29,
+      "quote": "maybe it's the\nbest thing that ever happened to you.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "Then Trembling gave up all the things she had to the henwife, put on\nher old clothes, and went to work in the kitchen. When the sisters came\nhome, the henwife asked:"
+      }
+    },
+    {
+      "id": 30,
+      "quote": "Have you any news from the church?",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Role-based attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 31,
+      "quote": "We have indeed,",
+      "speaker": {
+        "name": "The Old",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "said they,"
+      }
+    },
+    {
+      "id": 32,
+      "quote": "for we saw the grandest sight to-day. The\nstrange lady came again, in grander array than before. On herself and\nthe horse she rode were the finest colours of the world, and between\nthe ears of the horse was a bird which never stopped singing from the\ntime she came till she went away. The lady herself is the most\nbeautiful woman ever seen by man in Erin.",
+      "speaker": {
+        "name": "Fionn",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "After Trembling had disappeared from the church, the son of the king of\nEmania said to the other kings' sons:"
+      }
+    },
+    {
+      "id": 33,
+      "quote": "I will have that lady for my\nown.",
+      "speaker": {
+        "name": "You shall be my servant for twelve",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "They all said:"
+      }
+    },
+    {
+      "id": 34,
+      "quote": "You didn't win her just by taking the shoe off her\nfoot; you'll have to win her by the point of the sword; you'll have to\nfight for her with us before you can call her your own.",
+      "speaker": {
+        "name": "King",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 35,
+      "quote": "when I find the lady that\nshoe will fit, I'll fight for her, never fear, before I leave her to\nany of you.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "Then all the kings' sons were uneasy, and anxious to know who was she\nthat lost the shoe; and they began to travel all over Erin to know\ncould they find her. The prince of Emania and all the others went in a\ngreat company together, and made the round of Erin; they went\neverywhere,--north, south, east, and west. They visited every place\nwhere a woman was to be found, and left not a house in the kingdom they\ndid not search, to know could they find the woman the shoe would fit,\nnot caring whether she was rich or poor, of high or low degree.\n\nThe prince of Emania always kept the shoe; and when the young women saw\nit, they had great hopes, for it was of proper size, neither large nor\nsmall, and it would beat any man to know of what material it was made.\nOne thought it would fit her if she cut a little from her great toe;\nand another, with too short a foot, put something in the tip of her\nstocking. But no use; they only spoiled their feet, and were curing\nthem for months afterwards.\n\nThe two sisters, Fair and Brown, heard that the princes of the world\nwere looking all over Erin for the woman that could wear the shoe, and\nevery day they were talking of trying it on; and one day Trembling\nspoke up and said:"
+      }
+    },
+    {
+      "id": 36,
+      "quote": "Maybe it's my foot that the shoe will fit.",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 37,
+      "quote": "Oh, the breaking of the dog's foot on you! Why say so when you were at\nhome every Sunday?",
+      "speaker": {
+        "name": "The Mother",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "They were that way waiting, and scolding the younger sister, till the\nprinces were near the place. The day they were to come, the sisters put\nTrembling in a closet, and locked the door on her. When the company\ncame to the house, the prince of Emania gave the shoe to the sisters.\nBut though they tried and tried, it would fit neither of them."
+      }
+    },
+    {
+      "id": 38,
+      "quote": "Is there any other young woman in the house?",
+      "speaker": {
+        "name": "the prince",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "asked the prince."
+      }
+    },
+    {
+      "id": 39,
+      "quote": "There is,",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said Trembling, speaking up in the closet;"
+      }
+    },
+    {
+      "id": 40,
+      "quote": "I'm here.",
+      "speaker": {
+        "name": "Trembling",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 41,
+      "quote": "Oh! we have her for nothing but to put out the ashes,",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "said the\nsisters.\n\nBut the prince and the others wouldn't leave the house till they had\nseen her; so the two sisters had to open the door. When Trembling came\nout, the shoe was given to her, and it fitted exactly.\n\nThe prince of Emania looked at her and said:"
+      }
+    },
+    {
+      "id": 42,
+      "quote": "You are the woman the\nshoe fits, and you are the woman I took the shoe from.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Then Trembling spoke up, and said:"
+      }
+    },
+    {
+      "id": 43,
+      "quote": "Do you stay here till I return.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Then she went to the henwife's house. The old woman put on the cloak of\ndarkness, got everything for her she had the first Sunday at church,\nand put her on the white mare in the same fashion. Then Trembling rode\nalong the highway to the front of the house. All who saw her the first\ntime said:"
+      }
+    },
+    {
+      "id": 44,
+      "quote": "This is the lady we saw at church.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Then she went away a second time, and a second time came back on the\nblack mare in the second dress which the henwife gave her. All who saw\nher the second Sunday said:"
+      }
+    },
+    {
+      "id": 45,
+      "quote": "That is the lady we saw at church.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "A third time she asked for a short absence, and soon came back on the\nthird mare and in the third dress. All who saw her the third time said:"
+      }
+    },
+    {
+      "id": 46,
+      "quote": "That is the lady we saw at church.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "Every man was satisfied, and knew\nthat she was the woman.\n\nThen all the princes and great men spoke up, and said to the son of the\nking of Emania:"
+      }
+    },
+    {
+      "id": 47,
+      "quote": "You'll have to fight now for her before we let her go\nwith you.",
+      "speaker": {
+        "name": "the",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 48,
+      "quote": "I'm here before you, ready for combat,",
+      "speaker": {
+        "name": "The Prince",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "answered the prince.\n\nThen the son of the king of Lochlin stepped forth. The struggle began,\nand a terrible struggle it was. They fought for nine hours; and then\nthe son of the king of Lochlin stopped, gave up his claim, and left the\nfield. Next day the son of the king of Spain fought six hours, and\nyielded his claim. On the third day the son of the king of Nyerfói\nfought eight hours, and stopped. The fourth day the son of the king of\nGreece fought six hours, and stopped. On the fifth day no more strange\nprinces wanted to fight; and all the sons of kings in Erin said they\nwould not fight with a man of their own land, that the strangers had\nhad their chance, and, as no others came to claim the woman, she\nbelonged of right to the son of the king of Emania.\n\nThe marriage-day was fixed, and the invitations were sent out. The\nwedding lasted for a year and a day. When the wedding was over, the\nking's son brought home the bride, and when the time came a son was\nborn. The young woman sent for her eldest sister, Fair, to be with her\nand care for her. One day, when Trembling was well, and when her\nhusband was away hunting, the two sisters went out to walk; and when\nthey came to the seaside, the eldest pushed the youngest sister in. A\ngreat whale came and swallowed her.\n\nThe eldest sister came home alone, and the husband asked,"
+      }
+    },
+    {
+      "id": 49,
+      "quote": "Where is\nyour sister?",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 50,
+      "quote": "She has gone home to her father in Ballyshannon; now that I am well, I\ndon't need her.",
+      "speaker": {
+        "name": "Cúchulainn",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 51,
+      "quote": "I'm in dread it's my wife\nthat has gone.",
+      "speaker": {
+        "name": "the husband",
+        "identification_method": "Split quote continuation",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 52,
+      "quote": "Oh! no,",
+      "speaker": {
+        "name": "The Queen",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "said she;"
+      }
+    },
+    {
+      "id": 53,
+      "quote": "it's my sister Fair that's gone.",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": "Since the sisters were very much alike, the prince was in doubt. That\nnight he put his sword between them, and said:"
+      }
+    },
+    {
+      "id": 54,
+      "quote": "If you are my wife,\nthis sword will get warm; if not, it will stay cold.",
+      "speaker": {
+        "name": "Fair",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "In the morning when he rose up, the sword was as cold as when he put it\nthere.\n\nIt happened, when the two sisters were walking by the seashore, that a\nlittle cowboy was down by the water minding cattle, and saw Fair push\nTrembling into the sea; and next day, when the tide came in, he saw the\nwhale swim up and throw her out on the sand. When she was on the sand\nshe said to the cowboy:"
+      }
+    },
+    {
+      "id": 55,
+      "quote": "When you go home in the evening with the cows,\ntell the master that my sister Fair pushed me into the sea yesterday;\nthat a whale swallowed me, and then threw me out, but will come again\nand swallow me with the coming of the next tide; then he'll go out with\nthe tide, and come again with to-morrow's tide, and throw me again on\nthe strand. The whale will cast me out three times. I'm under the\nenchantment of this whale, and cannot leave the beach or escape myself.\nUnless my husband saves me before I'm swallowed the fourth time, I\nshall be lost. He must come and shoot the whale with a silver bullet\nwhen he turns on the broad of his back. Under the breast-fin of the\nwhale is a reddish-brown spot. My husband must hit him in that spot,\nfor it is the only place in which he can be killed.",
+      "speaker": {
+        "name": "the boy",
+        "identification_method": "Direct attribution",
+        "confidence": 1.0
+      },
+      "context": {
+        "before": "",
+        "after": "When the cowboy got home, the eldest sister gave him a draught of\noblivion, and he did not tell.\n\nNext day he went again to the sea. The whale came and cast Trembling on\nshore again. She asked the boy"
+      }
+    },
+    {
+      "id": 56,
+      "quote": "Did you tell the master what I told you\nto tell him?",
+      "speaker": {
+        "name": "The Servant",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 57,
+      "quote": "I did not,",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": "said he;"
+      }
+    },
+    {
+      "id": 58,
+      "quote": "I forgot.",
+      "speaker": {
+        "name": "I'll give you three guesses, said the king",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 59,
+      "quote": "How did you forget?",
+      "speaker": {
+        "name": "Son",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "asked she."
+      }
+    },
+    {
+      "id": 60,
+      "quote": "The woman of the house gave me a drink that made me forget.",
+      "speaker": {
+        "name": "Unknown",
+        "identification_method": "Unknown",
+        "confidence": null
+      },
+      "context": {
+        "before": "",
+        "after": ""
+      }
+    },
+    {
+      "id": 61,
+      "quote": "Well, don't forget telling him this night; and if she gives you a\ndrink, don't take it from her.",
+      "speaker": {
+        "name": "The Cowboy",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "As soon as the cowboy came home, the eldest sister offered him a drink.\nHe refused to take it till he had delivered his message and told all to\nthe master. The third day the prince went down with his gun and a\nsilver bullet in it. He was not long down when the whale came and threw\nTrembling upon the beach as the two days before. She had no power to\nspeak to her husband till he had killed the whale. Then the whale went\nout, turned over once on the broad of his back, and showed the spot for\na moment only. That moment the prince fired. He had but the one chance,\nand a short one at that; but he took it, and hit the spot, and the\nwhale, mad with pain, made the sea all around red with blood, and died.\n\nThat minute Trembling was able to speak, and went home with her\nhusband, who sent word to her father what the eldest sister had done.\nThe father came, and told him any death he chose to give her to give\nit. The prince told the father he would leave her life and death with\nhimself. The father had her put out then on the sea in a barrel, with\nprovisions in it for seven years.\n\nIn time Trembling had a second child, a daughter. The prince and she\nsent the cowboy to school, and trained him up as one of their own\nchildren, and said:"
+      }
+    },
+    {
+      "id": 62,
+      "quote": "If the little girl that is born to us now lives,\nno other man in the world will get her but him.",
+      "speaker": {
+        "name": "The Mother",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "The cowboy and the prince's daughter lived on till they were married.\nThe mother said to her husband"
+      }
+    },
+    {
+      "id": 63,
+      "quote": "You could not have saved me from the\nwhale but for the little cowboy; on that account I don't grudge him my\ndaughter.",
+      "speaker": {
+        "name": "I am a king, and I have a daughter, and I",
+        "identification_method": "ML prediction",
+        "confidence": 0.85
+      },
+      "context": {
+        "before": "",
+        "after": "The son of the king of Emania and Trembling had fourteen children, and\nthey lived happily till the two died of old age."
+      }
+    }
+  ]
+}
