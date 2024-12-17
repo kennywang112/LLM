@@ -1,0 +1,9 @@
+{
+    "speaker_mapping": {
+        "Wolf-Wind": "Voice/Neutral/03-01-01-01-01-01-03.wav",
+        "Unknown": "Voice/Neutral/03-01-01-01-01-01-04.wav",
+        "Glooskap": "Voice/Neutral/03-01-01-01-01-01-05.wav",
+        "the children": "Voice/Neutral/03-01-01-01-01-01-06.wav"
+    },
+    "default_speaker": "Voice/Neutral/03-01-01-01-01-01-02.wav"
+} 
